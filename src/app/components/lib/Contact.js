@@ -8,7 +8,7 @@ export default function Contact({imageUrl, type, cont}) {
            <Image src={imageUrl} alt='Imagem' width={18} height={50} />
          </div>
         <p>{type}</p>
-        <h3 className='text-sm'>{cont}</h3>
+        <h3 className='text-sm w-full'>{cont}</h3>
 
         
     </div>

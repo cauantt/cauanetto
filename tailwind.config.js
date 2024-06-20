@@ -14,10 +14,11 @@ module.exports = {
       },
 
       screens: {
-        'sm': {'max': '639px'},
+        'sm': {'max': '1px'},
         'md': {'max': '767px'},
-        'lg': {'max': '1023px'},
-        'xl': {'max': '1279px'},
+        'lg': {'max': '867px'},
+        'xl': {'max': '562px'},
+        'xls': {'max': '980px'}, // Super grande
       },
 
       backgroundImage: {
