@@ -10,11 +10,21 @@ export default function Header() {
         <h1 className='text-verde text-xl'>&lt;Caua Ntt/&gt; </h1>
         <div className='flex gap-10 text-white font-light md:hidden'>
 
-            <p className='cursor-pointer'>Início</p>
-            <p className='cursor-pointer'>Sobre mim</p>
-            <p className='cursor-pointer'>Projetos</p>
-            <p className='cursor-pointer'>Serviços</p>
-            <p className='cursor-pointer'>Habilidades</p>
+            <a href="#inicio">
+              <p className='cursor-pointer'>Início</p>
+            </a>
+            <a href="#sobre">
+              <p className='cursor-pointer'>Sobre mim</p>
+            </a>
+            <a href="#projetos">
+              <p className='cursor-pointer'>Projetos</p>
+            </a>
+            <a href="#service">
+              <p className='cursor-pointer'>Serviços</p>
+            </a>
+            <a href="#habilidades">
+              <p className='cursor-pointer'>Habilidades</p>
+            </a>
                 
         </div>
 

@@ -8,15 +8,14 @@ export default function Project({nome, tec, imageUrl }) {
 
 
     <div className='flex flex-col items-start gap-5'>
-        <div className='bg-white [width:460px] [height:200px] gap-4 xl:[width:280px] xl:[height:122px]'>
+        <div className='bg-white [width:460px] [height:247px] gap-4 xl:[width:280px] xl:[height:122px]'>
         <Image src={imageUrl} alt='Imagem' width={460} height={200} />
 
         </div>
-        <p className='text-lg'>{nome}</p>
-        <p className='text-verde'>{tec}amor e carinho</p>
+        <p className='text-lg'><strong>{nome}</strong></p>
+        <p className='text-verde'>{tec}</p>
         <div className='flex gap-5'>
-            <Button text="Acessar o projeto" />
-            <Button1 text="Acessar repositório"/>
+            
 
 
         </div>

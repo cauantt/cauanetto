@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import './page.css'
 import '../app/globals.css';
 import Content from "./components/Content";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
      
       <Header />
       <Content />
+      <Footer />
     </main>
   );
 }
