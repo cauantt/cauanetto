@@ -8,7 +8,7 @@ export default function Project({nome, tec, imageUrl }) {
 
 
     <div className='flex flex-col items-start gap-5'>
-        <div className='bg-white [width:460px] [height:247px] gap-4 xl:[width:280px] xl:[height:122px]'>
+        <div className='bg-white [width:460px] [height:247px] gap-4 xl:[width:280px] xl:[height:150px]'>
         <Image src={imageUrl} alt='Imagem' width={460} height={200} />
 
         </div>
